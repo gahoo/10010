@@ -1,0 +1,258 @@
+PROVINCE	PROVINCE.pinyin	CITY	CITY.pinyin	TARIFF_TYPE	TARIFF_TYPE.number	PRICE	SPEED	PRODUCT_NAME	BROADBAND_ID
+重庆	chongqing	重庆	chongqing	包一年	1	600	8M	8M宽带包年600元 	144590
+重庆	chongqing	重庆	chongqing	包一年	1	960	20M	20M宽带包年960元	161042
+重庆	chongqing	重庆	chongqing	包两年	2	1650	20M	20M宽带包两年1650元	161044
+重庆	chongqing	重庆	chongqing	包半年	0.5	420	8M	8M宽带包半年420元	161041
+重庆	chongqing	重庆	chongqing	包一年	1	720	12M	12M宽带包年720元	151834
+重庆	chongqing	重庆	chongqing	包两年	2	1320	12M	12M宽带包两年1320元	158574
+广东	guangdong	广州	guangzhou	包一年	1	960	10M	10M包年960元	142956
+广东	guangdong	广州	guangzhou	包一年	1	1020	10M	智慧沃家159.9套餐	169106
+广东	guangdong	广州	guangzhou	包一年	1	1020	10M	智慧沃家139.9套餐	169127
+广东	guangdong	广州	guangzhou	包一年	1	1260	20M	20M包年1260元	142959
+广东	guangdong	广州	guangzhou	包一年	1	1020	10M	智慧沃家109.9套餐	174502
+广东	guangdong	韶关	shaoguan	包一年	1	960	20M	20M960元/年(含沃TV）	141583
+广东	guangdong	韶关	shaoguan	包一年	1	660	6M	6M宽带660元/1年	140760
+广东	guangdong	韶关	shaoguan	包一年	1	1020	10M	智慧沃家159.9套餐	169121
+广东	guangdong	韶关	shaoguan	包一年	1	1020	10M	智慧沃家139.9套餐	169142
+广东	guangdong	韶关	shaoguan	包一年	1	1020	10M	智慧沃家109.9套餐	174503
+广东	guangdong	深圳	shenzhen	包一年	1	1080	6M	(主推)6M宽带1080元/年	140351
+广东	guangdong	深圳	shenzhen	包一年	1	1380	10M	智慧沃家139.9套餐	169131
+广东	guangdong	深圳	shenzhen	包一年	1	1380	20M	(主推)20M宽带1380元/年送元送3个月送沃TV(仅限光纤区域)	142929
+广东	guangdong	珠海	zhuhai	包一年	1	960	10M	10M一年新装960元	140710
+广东	guangdong	珠海	zhuhai	包一年	1	1020	10M	智慧沃家159.9套餐	169117
+广东	guangdong	珠海	zhuhai	包一年	1	1020	10M	智慧沃家139.9套餐	169138
+广东	guangdong	珠海	zhuhai	包一年	1	840	6M	6M一年新装840元（主推）	140662
+广东	guangdong	珠海	zhuhai	包一年	1	1020	10M	智慧沃家109.9套餐	174505
+广东	guangdong	汕头	shantou	包一年	1	760	6M	6M宽带包年760元	140674
+广东	guangdong	汕头	shantou	包一年	1	960	20M	20M宽带包年960元	141574
+广东	guangdong	汕头	shantou	包一年	1	1020	10M	智慧沃家159.9套餐	169126
+广东	guangdong	汕头	shantou	包一年	1	1020	10M	智慧沃家139.9套餐	169147
+广东	guangdong	汕头	shantou	包一年	1	1020	10M	智慧沃家109.9套餐	174510
+广东	guangdong	佛山	foshan	包一年	1	1120	20M	20M包年1120	141561
+广东	guangdong	佛山	foshan	包一年	1	1020	10M	智慧沃家159.9套餐	169124
+广东	guangdong	佛山	foshan	包一年	1	880	6M	6M包年880元	140360
+广东	guangdong	佛山	foshan	包一年	1	1020	10M	智慧沃家139.9套餐	169145
+广东	guangdong	佛山	foshan	包一年	1	1020	10M	智慧沃家109.9套餐	174514
+广东	guangdong	江门	jiangmen	包一年	1	600	6M	6M宽带600元/1年	140664
+广东	guangdong	江门	jiangmen	包一年	1	1020	10M	智慧沃家159.9套餐	169116
+广东	guangdong	江门	jiangmen	包一年	1	1020	10M	智慧沃家139.9套餐	169137
+广东	guangdong	江门	jiangmen	包一年	1	960	6M	6M宽带960元/2年	140665
+广东	guangdong	江门	jiangmen	包一年	1	1020	10M	智慧沃家109.9套餐	174506
+广东	guangdong	湛江	zhanjiang	包一年	1	690	10M	10M宽带包年690	140714
+广东	guangdong	湛江	zhanjiang	包一年	1	960	20M	20M宽带包年960元（含沃TV服务）	141576
+广东	guangdong	湛江	zhanjiang	包一年	1	1020	10M	智慧沃家159.9套餐	169123
+广东	guangdong	湛江	zhanjiang	包一年	1	1020	10M	智慧沃家139.9套餐	169144
+广东	guangdong	湛江	zhanjiang	包一年	1	1020	10M	智慧沃家109.9套餐	174513
+广东	guangdong	茂名	maoming	包一年	1	600	6M	6M宽带600元/年（不含沃TV）（乡镇属于合作宽带区域，请用户先弄清当地是否有联通宽带网络覆盖）	140756
+广东	guangdong	茂名	maoming	包一年	1	960	10M	10M宽带960元/2年（不含沃TV）	140758
+广东	guangdong	茂名	maoming	包一年	1	1020	10M	智慧沃家159.9套餐	169119
+广东	guangdong	茂名	maoming	包一年	1	1020	10M	智慧沃家139.9套餐	169140
+广东	guangdong	茂名	maoming	包一年	1	1020	10M	智慧沃家109.9套餐	174509
+广东	guangdong	肇庆	zhaoqing	包一年	1	780	10M	（主推）10M宽带780元/1年（xDSL/FTTH）	140730
+广东	guangdong	肇庆	zhaoqing	包一年	1	1020	10M	智慧沃家159.9套餐	169118
+广东	guangdong	肇庆	zhaoqing	包一年	1	720	6M	（主推）6M宽带720元包年（xDSL/FTTH）	140728
+广东	guangdong	肇庆	zhaoqing	包一年	1	1020	10M	智慧沃家139.9套餐	169139
+广东	guangdong	肇庆	zhaoqing	包一年	1	1020	10M	智慧沃家109.9套餐	174508
+广东	guangdong	惠州	huizhou	包一年	1	1860	10M	10M宽带1860元/3年	140673
+广东	guangdong	惠州	huizhou	包一年	1	1020	10M	智慧沃家159.9套餐	169109
+广东	guangdong	惠州	huizhou	包一年	1	1020	10M	智慧沃家139.9套餐	169130
+广东	guangdong	惠州	huizhou	包一年	1	780	10M	10M宽带780元/1年	140671
+广东	guangdong	惠州	huizhou	包一年	1	1020	10M	智慧沃家109.9套餐	174504
+广东	guangdong	梅州	meizhou	包一年	1	599	8M	8M宽带599元包年送2个月	140692
+广东	guangdong	梅州	meizhou	包一年	1	699	10M	10M宽带699元包年 (主推)	140752
+广东	guangdong	梅州	meizhou	包一年	1	1020	10M	智慧沃家109.9套餐	174516
+广东	guangdong	梅州	meizhou	包一年	1	1020	10M	智慧沃家159.9套餐	169112
+广东	guangdong	梅州	meizhou	包一年	1	1020	10M	智慧沃家139.9套餐	169133
+广东	guangdong	汕尾	shanwei	包一年	1	960	10M	10M宽带960元/1年(主推）	140745
+广东	guangdong	汕尾	shanwei	包一年	1	1020	10M	智慧沃家109.9套餐	174517
+广东	guangdong	汕尾	shanwei	包一年	1	720	6M	6M宽带720元/1年(主推）	140690
+广东	guangdong	汕尾	shanwei	包一年	1	1020	10M	智慧沃家159.9套餐	169113
+广东	guangdong	汕尾	shanwei	包一年	1	1020	10M	智慧沃家139.9套餐	169134
+广东	guangdong	河源	heyuan	包一年	1	600	6M	6M宽带600元包年	140682
+广东	guangdong	河源	heyuan	包一年	1	1020	10M	智慧沃家109.9套餐	174521
+广东	guangdong	河源	heyuan	包一年	1	1020	10M	智慧沃家159.9套餐	169111
+广东	guangdong	河源	heyuan	包一年	1	1020	10M	智慧沃家139.9套餐	169132
+广东	guangdong	河源	heyuan	包一年	1	780	12M	12M包年780元	140685
+广东	guangdong	阳江	yangjiang	包一年	1	600	10M	10M包年600元	143573
+广东	guangdong	阳江	yangjiang	包一年	1	1020	10M	智慧沃家159.9套餐	169107
+广东	guangdong	阳江	yangjiang	包一年	1	1020	10M	智慧沃家139.9套餐	169128
+广东	guangdong	阳江	yangjiang	包一年	1	840	20M	20M包年840元	140750
+广东	guangdong	阳江	yangjiang	包一年	1	1020	10M	智慧沃家109.9套餐	174515
+广东	guangdong	清远	qingyuan	包一年	1	1020	10M	智慧沃家109.9套餐	174518
+广东	guangdong	清远	qingyuan	包一年	1	660	10M	10M宽带660元/1年（主推）	140734
+广东	guangdong	清远	qingyuan	包一年	1	1020	10M	智慧沃家159.9套餐	169114
+广东	guangdong	清远	qingyuan	包一年	1	1020	10M	智慧沃家139.9套餐	169135
+广东	guangdong	清远	qingyuan	包一年	1	780	12M	12M宽带780元/14个月(主推）	140735
+广东	guangdong	东莞	dongguan	包一年	1	720	6M	6M包年720元	140355
+广东	guangdong	东莞	dongguan	包一年	1	1020	10M	智慧沃家109.9套餐	174519
+广东	guangdong	东莞	dongguan	包一年	1	840	10M	10M宽带840元/年（不含沃TV）	154392
+广东	guangdong	东莞	dongguan	包一年	1	1020	10M	智慧沃家159.9套餐	169115
+广东	guangdong	东莞	dongguan	包一年	1	1020	10M	智慧沃家139.9套餐	169136
+广东	guangdong	中山	zhongshan	包一年	1	1380	20M	20M1380元/年	141567
+广东	guangdong	中山	zhongshan	包一年	1	2380	20M	20M宽带2380元/2年	141568
+广东	guangdong	中山	zhongshan	包一年	1	1020	10M	智慧沃家159.9套餐	169125
+广东	guangdong	中山	zhongshan	包一年	1	1020	10M	智慧沃家139.9套餐	169146
+广东	guangdong	中山	zhongshan	包一年	1	1020	10M	智慧沃家109.9套餐	174511
+广东	guangdong	潮州	chaozhou	包一年	1	800	10M	10M包一年800元	140743
+广东	guangdong	潮州	chaozhou	包一年	1	1020	10M	智慧沃家159.9套餐	169108
+广东	guangdong	潮州	chaozhou	包一年	1	1020	10M	智慧沃家139.9套餐	169129
+广东	guangdong	潮州	chaozhou	包一年	1	1380	10M	10M包二年1380元	140742
+广东	guangdong	潮州	chaozhou	包一年	1	1020	10M	智慧沃家109.9套餐	174507
+广东	guangdong	揭阳	jieyang	包一年	1	960	20M	20M一年新装960元（主推）	142949
+广东	guangdong	揭阳	jieyang	包一年	1	720	6M	6M一年新装720元	142945
+广东	guangdong	揭阳	jieyang	包一年	1	1020	10M	智慧沃家159.9套餐	169122
+广东	guangdong	揭阳	jieyang	包一年	1	1020	10M	智慧沃家139.9套餐	169143
+广东	guangdong	揭阳	jieyang	包一年	1	1020	10M	智慧沃家109.9套餐	174512
+广东	guangdong	云浮	yunfu	包一年	1	840	20M	20M840元/年	141596
+广东	guangdong	云浮	yunfu	包一年	1	1020	10M	智慧沃家109.9套餐	174520
+广东	guangdong	云浮	yunfu	包一年	1	600	10M	10M宽带600元/12个月	154390
+广东	guangdong	云浮	yunfu	包一年	1	1020	10M	智慧沃家159.9套餐	169120
+广东	guangdong	云浮	yunfu	包一年	1	1020	10M	智慧沃家139.9套餐	169141
+广西	guangxi	南宁	nanning	包一年	1	730	4M	南宁宽带730元包4M/年	139980
+广西	guangxi	南宁	nanning	包一年	1	720	10M	南宁宽带720元包10M/年 特价	140223
+广西	guangxi	柳州	liuzhou	包一年	1	730	4M	柳州宽带730元包4M/年	139982
+广西	guangxi	柳州	liuzhou	包一年	1	720	10M	柳州宽带720元包10M/年	139988
+广西	guangxi	桂林	guilin	包一年	1	730	4M	桂林宽带730元包4M/年	139981
+广西	guangxi	桂林	guilin	包一年	1	720	10M	桂林宽带720元包10M/年 特价	140226
+广西	guangxi	梧州	wuzhou	包一年	1	720	10M	梧州宽带720元包10M/年 特价	139987
+广西	guangxi	梧州	wuzhou	包一年	1	730	4M	梧州宽带730元包4M/年	139983
+广西	guangxi	北海	beihai	包一年	1	730	4M	北海宽带730元包4M/年	139999
+广西	guangxi	北海	beihai	包一年	1	720	10M	北海宽带720元包10M/年 特价	140001
+广西	guangxi	防城港	fangchenggang	包一年	1	720	10M	防城港宽带720元包10M/年 特价	140222
+广西	guangxi	防城港	fangchenggang	包一年	1	730	4M	防城港宽带730元包4M/年	139979
+广西	guangxi	钦州	qinzhou	包一年	1	730	4M	钦州宽带730元包4M/年	139992
+广西	guangxi	钦州	qinzhou	包一年	1	720	10M	钦州宽带720元包10M/年 特价	139993
+广西	guangxi	贵港	guigang	包一年	1	730	4M	贵港宽带730元包4M/年	139978
+广西	guangxi	贵港	guigang	包一年	1	720	10M	贵港宽带720元包10M/年 特价	140000
+广西	guangxi	玉林	yulin	包一年	1	730	4M	玉林宽带730元包4M/年	139985
+广西	guangxi	玉林	yulin	包一年	1	720	10M	玉林宽带720元包10M/年 特价	139986
+广西	guangxi	百色	baise	包一年	1	720	10M	百色宽带720元包10M/年 特价	139990
+广西	guangxi	百色	baise	包一年	1	730	4M	百色宽带730元包4M/年	139989
+广西	guangxi	贺州	hezhou	包一年	1	730	4M	贺州宽带730元包4M/年	139970
+广西	guangxi	贺州	hezhou	包一年	1	720	10M	贺州宽带720元包10M/年 特价	139998
+广西	guangxi	河池	hechi	包一年	1	730	4M	河池宽带730元包4M/年	139994
+广西	guangxi	河池	hechi	包一年	1	720	10M	河池宽带720元包10M/年 特价	139995
+广西	guangxi	来宾	laibin	包一年	1	720	10M	来宾宽带720元包10M/年 特价	140212
+广西	guangxi	来宾	laibin	包一年	1	730	4M	来宾宽带730元包4M/年	140005
+广西	guangxi	崇左	chongzuo	包一年	1	720	10M	崇左宽带720元包10M/年 特价	140004
+广西	guangxi	崇左	chongzuo	包一年	1	730	4M	崇左宽带730元包4M/年	140003
+湖南	hunan	长沙	changsha	包五月	0.4	0	20M	测试	146190
+黑龙江	heilongjiang	哈尔滨	haerbin	包一月	0.83	100	4M	100元包月不限时	142818
+黑龙江	heilongjiang	牡丹江	mudanjiang	包一月	0.83	70	4M	4M包月70元	140884
+江苏	jiangsu	南京	nanjing	包两年	2	960	10M	公众宽带960包两年产品(10M) 南京	162751
+江苏	jiangsu	南京	nanjing	包一年	1	600	10M	公众宽带600包一年产品(10M) 南京	162820
+江苏	jiangsu	南京	nanjing	包一年	1	960	50M	南京960元包年 	141395
+江苏	jiangsu	南京	nanjing	包一年	1	720	20M	公众宽带720包一年产品(20M) 南京	162821
+江苏	jiangsu	南京	nanjing	包一年	1	1200	20M	公众宽带1200包两年产品(20M) 南京	162822
+江苏	jiangsu	无锡	wuxi	包两年	2	1200	20M	公众宽1200元包两年产品(20M)	162830
+江苏	jiangsu	无锡	wuxi	包两年	2	960	10M	公众宽960元包两年产品(10M)	162831
+江苏	jiangsu	无锡	wuxi	包一年	1	720	20M	公众宽带720元包一年产品(20M)	162829
+江苏	jiangsu	无锡	wuxi	包一年	1	720	50M	无锡720元包年	155918
+江苏	jiangsu	无锡	wuxi	包一年	1	600	10M	公众宽带600元包一年产品(10M) 无锡	162826
+江苏	jiangsu	徐州	xuzhou	包两年	2	960	10M	公众宽带960元包两年产品(10M)徐州	162858
+江苏	jiangsu	徐州	xuzhou	包一年	1	600	20M	公众宽带600元包一年产品(20M)徐州 	162859
+江苏	jiangsu	徐州	xuzhou	包一年	1	720	50M	徐州720元包年	141400
+江苏	jiangsu	常州	changzhou	包一年	1	720	50M	常州720元包年	141404
+江苏	jiangsu	常州	changzhou	包一年	1	480	10M	公众宽带480元包一年产品(10M)常州	162834
+江苏	jiangsu	常州	changzhou	包一年	1	720	20M	公众宽带720元包一年产品(20M)常州	162835
+江苏	jiangsu	常州	changzhou	包两年	2	1200	20M	公众宽带1200元包两年产品(20M)常州	162836
+江苏	jiangsu	苏州	suzhou	包一年	1	720	20M	公众宽带720包一年产品(20M) 苏州	162818
+江苏	jiangsu	苏州	suzhou	包一年	1	600	10M	公众宽带600包一年产品(10M) 苏州	162817
+江苏	jiangsu	苏州	suzhou	包两年	2	960	10M	公众宽带960包两年产品(10M) 苏州	162816
+江苏	jiangsu	苏州	suzhou	包一年	1	720	50M	苏州720元包年	141406
+江苏	jiangsu	南通	nantong	包两年	2	1200	20M	公众宽带1200元包两年产品(20M) 南通	162851
+江苏	jiangsu	南通	nantong	包两年	2	720	10M	公众宽带720元包两年产品(10M)南通 	162849
+江苏	jiangsu	南通	nantong	包一年	1	720	50M	南通720元包年	141402
+江苏	jiangsu	连云港	lianyungang	包一年	1	720	50M	连云港720元包年	141397
+江苏	jiangsu	连云港	lianyungang	包一年	1	600	10M	公众宽带600元包一年产品(10M) 连云港	162874
+江苏	jiangsu	连云港	lianyungang	包一年	1	720	20M	公众宽带720元包一年产品(20M) 连云港	162872
+江苏	jiangsu	连云港	lianyungang	包两年	2	960	10M	公众宽带960元包两年产品(10M)	162876
+江苏	jiangsu	连云港	lianyungang	包两年	2	1200	20M	公众宽带1200元包两年产品(20M)连云港	162873
+江苏	jiangsu	淮安	huaian	包一年	1	840	20M	公众宽带840元包一年产品(20M)淮安	162861
+江苏	jiangsu	淮安	huaian	包一年	1	600	10M	公众宽带600元包一年产品(10M) 淮安	162860
+江苏	jiangsu	淮安	huaian	包两年	2	960	10M	公众宽带960元包两年产品(10M)淮安	162862
+江苏	jiangsu	淮安	huaian	包一年	1	720	50M	淮安720元包年	141401
+江苏	jiangsu	盐城	yancheng	包一年	1	480	10M	公众宽带480元包一年产品(10M)盐城	162863
+江苏	jiangsu	盐城	yancheng	包一年	1	600	20M	 公众宽带600元包一年产品(20M)盐城	162864
+江苏	jiangsu	盐城	yancheng	包一年	1	720	50M	盐城720元包年	141398
+江苏	jiangsu	扬州	yangzhou	包一年	1	720	50M	扬州720元包年	141403
+江苏	jiangsu	扬州	yangzhou	包一年	1	480	10M	公众宽带480元包一年产品(10M)扬州	162837
+江苏	jiangsu	扬州	yangzhou	包一年	1	600	20M	公众宽带600元包一年产品(20M)扬州	162840
+江苏	jiangsu	扬州	yangzhou	包两年	2	840	10M	公众宽带840元包两年产品(10M)扬州	162838
+江苏	jiangsu	扬州	yangzhou	包两年	2	960	20M	公众宽带960元包两年产品(20M)扬州	162842
+江苏	jiangsu	镇江	zhenjiang	包一年	1	480	10M	公众宽带480元包一年产品(10M)镇江	162845
+江苏	jiangsu	镇江	zhenjiang	包两年	2	960	10M	公众宽带960元包两年产品(10M)镇江	162846
+江苏	jiangsu	镇江	zhenjiang	包一年	1	720	50M	镇江720元包年 	141396
+江苏	jiangsu	镇江	zhenjiang	包一年	1	720	20M	公众宽带720元包一年产品(20M)镇江	162847
+江苏	jiangsu	镇江	zhenjiang	包两年	2	1440	20M	公众宽带1440元包两年产品(20M)镇江	162848
+江苏	jiangsu	泰州	taizhou	包一月	0.83	600	20M	 公众宽带600元包一年产品(20M)泰州	162867
+江苏	jiangsu	泰州	taizhou	包一年	1	720	50M	泰州720元包年	141405
+江苏	jiangsu	泰州	taizhou	包一年	1	480	10M	 公众宽带480元包一年产品(10M)泰州	162866
+江苏	jiangsu	宿迁	suqian	包一年	1	720	50M	宿迁720元包年	141399
+江苏	jiangsu	宿迁	suqian	包一年	1	480	10M	公众宽带480元包一年产品(10M)宿迁	162870
+江苏	jiangsu	宿迁	suqian	包一年	1	720	20M	公众宽带720元包一年产品(20M) 宿迁	162871
+吉林	jilin	吉林	jilin	包两年	2	1200	4M	4M包2年1200元	163753
+吉林	jilin	吉林	jilin	包一年	1	1500	20M	吉林市区20M宽带包一年	173601
+吉林	jilin	吉林	jilin	包两年	2	2800	20M	吉林市区20M宽带包两年	173602
+辽宁	liaoning	沈阳	shenyang	包一年	1	1200	20M	住宅 20M宽带 包1年1200元	147811
+辽宁	liaoning	沈阳	shenyang	包两年	2	1800	4M	住宅 4M宽带 包2年 1800元	147817
+辽宁	liaoning	沈阳	shenyang	包两年	2	2200	20M	住宅 20M宽带 包2年2200元	147812
+辽宁	liaoning	沈阳	shenyang	包一年	1	150	4M	IPTV标清、高清包年	154479
+辽宁	liaoning	沈阳	shenyang	包一月	0.83	38	4M	IPTV标清、高清包月	154480
+辽宁	liaoning	沈阳	shenyang	包一年	1	1000	4M	住宅 4M宽带 包1年 1000元	147816
+辽宁	liaoning	大连	dalian	包一月	0.83	300	2M	家庭宽带（固话加装）2M包月产品	147925
+辽宁	liaoning	大连	dalian	包一月	0.83	140	10M	家庭宽带（固话加装）10M包月产品	147927
+辽宁	liaoning	大连	dalian	包一年	1	1300	20M	家庭宽带（固话加装）20M包年产品	147928
+辽宁	liaoning	大连	dalian	包一年	1	1100	2M	家庭宽带（固话加装）2M包年产品	147924
+辽宁	liaoning	大连	dalian	包一年	1	1100	10M	家庭宽带（固话加装）10M包年产品	147926
+辽宁	liaoning	大连	dalian	包一月	0.83	260	20M	家庭宽带（固话加装）20M包月产品	147929
+辽宁	liaoning	鞍山	anshan	包两年	2	1200	4M	ADSL家庭4M宽带两年1200元（市内有固话）	147930
+辽宁	liaoning	鞍山	anshan	包两年	2	1272	15M	FTTH家庭15M宽带两年1272元（市内有固话）	147934
+辽宁	liaoning	鞍山	anshan	包两年	2	1480	4M	ADSL家庭4M宽带两年1480元（市内无固话）	147931
+辽宁	liaoning	鞍山	anshan	包一年	1	840	15M	FTTH家庭15M宽带一年840元（市内有固话）	147932
+辽宁	liaoning	鞍山	anshan	包两年	2	1480	15M	FTTH家庭15M宽带两年1480元（市内无固话）	147935
+辽宁	liaoning	抚顺	fushun	包两年	2	1200	4M	ADSL4M(包27个月)	147938
+辽宁	liaoning	抚顺	fushun	包两年	2	1200	20M	FTTH20M(包27个月)	147941
+辽宁	liaoning	抚顺	fushun	包三年	3	1440	4M	ADSL4M(包36个月)	147939
+辽宁	liaoning	抚顺	fushun	包三年	3	1440	20M	FTTH20M(包36个月)	147942
+辽宁	liaoning	抚顺	fushun	包一年	1	600	4M	ADSL4M(包13个月)	147936
+辽宁	liaoning	抚顺	fushun	包一年	1	600	20M	FTTH20M(包13个月)	147940
+辽宁	liaoning	本溪	benxi	包一年	1	720	15M	15M无承载光纤宽带 包年720元	147828
+辽宁	liaoning	本溪	benxi	包一年	1	660	4M	4M无承载ADSL宽带 包年660元	147830
+辽宁	liaoning	本溪	benxi	包一年	1	660	15M	15M光纤宽带 包年660元	147827
+辽宁	liaoning	本溪	benxi	包一年	1	600	4M	4MADSL宽带 包年600元	147829
+辽宁	liaoning	丹东	dandong	包两年	2	1080	4M	4M宽带新装2年1080元	147835
+辽宁	liaoning	丹东	dandong	包两年	2	1200	12M	12M光纤宽带新装2年1200元	147837
+辽宁	liaoning	丹东	dandong	包两年	2	1980	20M	20M光纤宽带新装2年1980元	147839
+辽宁	liaoning	锦州	jinzhou	包一年	1	1100	20M	20M光纤宽带包年新装1100元	147844
+辽宁	liaoning	锦州	jinzhou	包两年	2	1300	10M	10M光纤宽带包2年新装1300元	147842
+辽宁	liaoning	锦州	jinzhou	包一年	1	800	10M	10M光纤宽带包年新装800元	147841
+辽宁	liaoning	锦州	jinzhou	包两年	2	1600	20M	20M光纤宽带包2年新装1600元	147845
+辽宁	liaoning	营口	yingkou	包两年	2	960	4M	（ADSL/小区以太网）960元/26个月	147849
+辽宁	liaoning	营口	yingkou	包一年	1	1080	20M	FTTH 1080元/13个月	147851
+辽宁	liaoning	营口	yingkou	包两年	2	1980	20M	FTTH 1980元/26个月	147852
+辽宁	liaoning	营口	yingkou	包一年	1	600	4M	（ADSL/FTTH/小区以太网）600元/13个月	147846
+辽宁	liaoning	营口	yingkou	包一年	1	840	10M	（FTTH/小区以太网）840元/13个月	147848
+辽宁	liaoning	营口	yingkou	包两年	2	1560	10M	（FTTH/小区以太网）1560元/26个月	147850
+辽宁	liaoning	阜新	fuxin	包两年	2	850	4M	城市家庭宽带两年850元（市区专用）	147944
+辽宁	liaoning	阜新	fuxin	包一年	1	500	4M	城市家庭宽带一年500元（市区专用）	147943
+辽宁	liaoning	阜新	fuxin	包一年	1	720	4M	农村家庭宽带一年720元(彰武县、阜蒙县农村专用）	147945
+辽宁	liaoning	辽阳	liaoyang	包一年	1	660	10M	新装10M光纤宽带+IPTV互动电视（12个月）	147856
+辽宁	liaoning	辽阳	liaoyang	包一年	1	520	10M	新装10M光纤宽带（12个月）	147854
+辽宁	liaoning	辽阳	liaoyang	包一年	1	480	8M	新装8M光纤宽带（12个月）	147853
+辽宁	liaoning	辽阳	liaoyang	包一年	1	840	20M	新装20M光纤宽带（12个月）	147855
+辽宁	liaoning	辽阳	liaoyang	包一年	1	900	20M	新装20M光纤宽带+IPTV互动电视（12个月）	147857
+辽宁	liaoning	盘锦	panjin	包一年	1	766	4M	城市家庭ADSL宽带4M包年766元	147865
+辽宁	liaoning	盘锦	panjin	包一年	1	766	10M	城市家庭光纤宽带10M包年766元	147866
+辽宁	liaoning	铁岭	tieling	包一年	1	800	4M	4M宽带1年800元	147858
+辽宁	liaoning	铁岭	tieling	包一年	1	800	10M	10M宽带1年800元	147859
+辽宁	liaoning	铁岭	tieling	包一年	1	1000	20M	20M宽带1年1000元	147860
+辽宁	liaoning	朝阳	chaoyang	包一年	1	450	4M	城市家庭有承载4M包年450元(ADSL)	147861
+辽宁	liaoning	朝阳	chaoyang	包一年	1	580	10M	城市家庭有承载10M包年580元	147863
+辽宁	liaoning	朝阳	chaoyang	包一年	1	680	10M	城市家庭无承载10M包年680元	147864
+辽宁	liaoning	朝阳	chaoyang	包一年	1	550	4M	城市家庭无承载4M包年550元(ADSL)	147862
+辽宁	liaoning	葫芦岛	huludao	包一年	1	580	10M	家庭宽带580元/13月	147947
+辽宁	liaoning	葫芦岛	huludao	包一年	1	550	4M	家庭宽带550元/13月	147946
+内蒙古	neimenggu	呼和浩特	huhehaote	包一年	1	900	2M	测试专用10M-包年900元	142451
+内蒙古	neimenggu	包头	baotou	包一月	0.83	0	2M	测试不可下单-128K-每分钟	142466
+上海	shanghai	上海	shanghai	包一年	1	1060	10M	测试产品宽带 请勿下单	142901
