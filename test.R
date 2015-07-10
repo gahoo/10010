@@ -45,6 +45,26 @@ ggplot(broadband,
   #geom_bar(stat='identity')+
   facet_grid(PROVINCE ~ ., space='free', scales='free')
 
+
+aes(y=CITY, x=SPEED_PRICE, color=SPEED, size=SPEED.number, alpha=PRICE))
+
+all_values <- function(x) {
+  if(is.null(x)) return(NULL)
+  paste0(names(x), ": ", format(x), collapse = "<br />")
+}
+
+broadband %>%
+  ggvis(x = ~SPEED_PRICE, y = ~CITY,
+        size = ~SPEED.number,
+        fill = ~SPEED,
+        stroke = ~PRODUCT_NAME,
+        fillOpacity = ~PRICE) %>%
+  layer_points() %>%
+  add_tooltip(all_values, "hover")
+  add_legend(scales = "size", properties = legend_props(legend = list(y = 200)))
+  #add_legend(scales = "fillOpacity", properties = legend_props(legend = list(y = 200)))
+  
+
 pdf('city.pdf', height=10,width=70,  family='GB1')
 ggplot(broadband, 
        aes(x=PRODUCT_NAME, y=SPEED_PRICE, fill=SPEED, alpha=PRICE))+

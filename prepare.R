@@ -19,7 +19,7 @@ getCityGeoJSON<-function(city_name){
     fromJSON(simplifyVector = FALSE)
 }
 
-city_names<-unique(as.character(broadband$CITY))
+city_names<-unique(as.character(broadband$CITY))[1:3]
 
 mapCityStyle<-function(geocity, city_name, ...){
   StyleOptions = list(...)
@@ -43,4 +43,9 @@ is.NULL<-function(x){
   }else{
     FALSE
   }
+}
+
+tooltip_helper <- function(x) {
+  if(is.null(x)) return(NULL)
+  paste0(names(x), ": ", format(x), collapse = "<br />")
 }

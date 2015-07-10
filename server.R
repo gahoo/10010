@@ -6,13 +6,15 @@
 #
 
 library(shiny)
+library(DT)
+library(ggvis)
 library(ggplot2)
 library(jsonlite)
 library(leaflet)
-library(DT)
 library(scales)
+library(grid)
 
-source('misc.R')
+source('prepare.R')
 
 shinyServer(function(input, output) {
   
@@ -81,7 +83,7 @@ shinyServer(function(input, output) {
   
   output$map<-renderLeaflet({
     leaflet() %>%
-      setView(lng=104, lat=36, zoom=4) %>%
+      setView(lng=114, lat=26, zoom=4) %>%
       addTiles()
   })
   
@@ -90,7 +92,7 @@ shinyServer(function(input, output) {
     as.character(input$map_geojson_click)
   })
   
-  output$broadband_tbl<-renderDataTable({
+  output$broadband_tbl<-DT::renderDataTable({
     bounds<-boundsbroadband()
     bounds$SPEED<-bounds$SPEED.number
     columns<-c("PROVINCE", "CITY", "TARIFF_TYPE",  "PRICE", "SPEED", "PRODUCT_NAME", "SPEED_PRICE")
@@ -126,19 +128,36 @@ shinyServer(function(input, output) {
     })
   
   output$cities_bar_plot<-renderPlot({
-    ggplot(boundsbroadband(), 
+    p<-ggplot(boundsbroadband(), 
            aes_string(x='PRODUCT_NAME', y=input$show, fill='SPEED'))+
       geom_bar(stat='identity', position='dodge')+
       facet_wrap(~CITY, scales="free_x", nrow=1)+
-      theme(axis.text.x = element_text(angle = 90))
+      theme(axis.text.x = element_text(angle = 90),
+            text=element_text(family='GB1')
+            )
+    
+    
+    print(p, vp=viewport(angle=-90))
   })
   
   output$cities_dot_plot<-renderPlot({
     ggplot(boundsbroadband(), 
            aes(y=CITY, x=SPEED_PRICE, color=SPEED, size=SPEED.number, alpha=PRICE))+
       geom_point() +
+      theme(text=element_text(family='GB1')) +
       facet_grid(PROVINCE ~ ., space='free', scales='free')
   })
+  
+  boundsbroadband %>%
+    ggvis(x = ~SPEED_PRICE, y = ~CITY,
+          size = ~SPEED.number,
+          fill = ~PROVINCE,
+          fillOpacity = ~PRICE) %>%
+    layer_points() %>%
+    add_tooltip(tooltip_helper, "hover") %>%
+    add_legend(scales = "size", properties = legend_props(legend = list(y = 200))) %>%
+    set_options(width = 480, height = 640) %>%
+    bind_shiny("ggvis_cities_dot_plot", "dot_plot_ui")
   
   output$SPEED_filter<-renderUI({
     selectInput('SPEED', 'SPEED',
