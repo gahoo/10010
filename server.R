@@ -81,8 +81,8 @@ shinyServer(function(input, output) {
                 values = as.formula(sprintf("~%s", input$show)))
   })
   
-  observeEvent(input$map_geojson_mouseover,{
-    geojson<-input$map_geojson_mouseover
+  observeEvent(input$map_geojson_click,{
+    geojson<-input$map_geojson_click
     leafletProxy("map") %>%
       clearPopups() %>%
       addPopups(lng=geojson$lng, lat=geojson$lat,
