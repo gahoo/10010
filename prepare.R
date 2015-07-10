@@ -32,6 +32,19 @@ mapCityStyle<-function(geocity, city_name, ...){
   geocity
 }
 
+modifyCityColors<-function(city_names, fillColors){
+  lapply(city_names, function(city_name){
+    feature_cnts<-length(geocities[[city_name]]$features)
+    for(i in 1:feature_cnts){
+      geocities[[city_name]]$features[[i]]$properties$style$fillColor<-fillColors[[city_name]]
+      geocities[[city_name]]$features[[i]]$properties$style$color<-fillColors[[city_name]]
+    }
+  })
+  geocities_style<-geocities[city_names]
+  names(geocities_style)<-NULL
+  geocities_style
+}
+
 
 city_names<-unique(as.character(broadband$CITY))
 geocities<-lapply(city_names, getCityGeoJSON)

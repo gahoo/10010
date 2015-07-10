@@ -66,6 +66,7 @@ shinyServer(function(input, output) {
                    weight = 1, color = fillColors[[city_name]],
                    opacity = 1, fillOpacity = 0.8)
     })
+    #geocities_style<-modifyCityColors(city_names, fillColors)
     
     leafletProxy("map") %>%
       clearGeoJSON() %>%
@@ -98,7 +99,7 @@ shinyServer(function(input, output) {
   
   output$map<-renderLeaflet({
     leaflet() %>%
-      setView(lng=114, lat=26, zoom=4) %>%
+      setView(lng=124, lat=26, zoom=4) %>%
       addTiles()
   })
   

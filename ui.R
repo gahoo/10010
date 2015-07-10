@@ -20,7 +20,7 @@ shinyUI(bootstrapPage(
                   uiOutput('PROVINCE_filter'),
                   uiOutput('SPEED_filter'),
                   uiOutput('TARIFF_TYPE_filter'),
-                  br(),
+                  hr(),
                   selectInput('aggregate_FUN', 'Aggregate Function:',
                               choices=c('mean', 'median', 'max', 'min'),
                               selected='mean'),
