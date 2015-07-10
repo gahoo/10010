@@ -53,6 +53,8 @@ shinyServer(function(input, output) {
   
   observe({
     broadband_sub<-subsetbroadband()
+    broadband_sub<-broadband_sub[c('CITY', input$show)]
+    broadband_sub<-aggregate(.~CITY, data=broadband_sub, input$aggregate_FUN)
     colorpal<-colorNumeric('OrRd', broadband_sub[[input$show]])
     fillColors<-colorpal(broadband_sub[[input$show]])
     names(fillColors)<-broadband_sub$CITY
