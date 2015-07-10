@@ -31,7 +31,7 @@ shinyUI(bootstrapPage(
                            wellPanel(includeHTML('about.html'))
                            )
                 )
-                #textOutput('helper'),
+                #textOutput('helper')
   ),
   conditionalPanel(condition = "input.show_data == true",
     absolutePanel(bottom = 10, left = 10,

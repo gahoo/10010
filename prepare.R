@@ -3,10 +3,12 @@ broadband<-read.delim('data/broadbandlist.txt',sep='\t',
 broadband<-subset(broadband, PRICE!=0)
 broadband$SPEED.number<-as.numeric(gsub("M","",as.character(broadband$SPEED)))
 broadband<-transform(broadband, SPEED_PRICE=1024 * SPEED.number/PRICE)
+
 city.lat.long<-read.table('data/city_lat_long.txt',header=T)
 colnames(city.lat.long)[1]<-'CITY.pinyin'
 broadband.lat.long<-merge(unique(broadband[c("CITY","CITY.pinyin")]),
                           city.lat.long, by='CITY.pinyin')
+
 
 chinageojson <- readLines("data/geoJson/city.list.json", warn = FALSE, encoding='UTF-8') %>%
   paste(collapse = "\n") %>%
@@ -19,8 +21,6 @@ getCityGeoJSON<-function(city_name){
     fromJSON(simplifyVector = FALSE)
 }
 
-city_names<-unique(as.character(broadband$CITY))[1:3]
-
 mapCityStyle<-function(geocity, city_name, ...){
   StyleOptions = list(...)
   setGeoCityFeature<-function(feat, StyleOptions){
@@ -32,6 +32,8 @@ mapCityStyle<-function(geocity, city_name, ...){
   geocity
 }
 
+
+city_names<-unique(as.character(broadband$CITY))
 geocities<-lapply(city_names, getCityGeoJSON)
 names(geocities)<-city_names
 

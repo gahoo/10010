@@ -81,6 +81,19 @@ shinyServer(function(input, output) {
                 values = as.formula(sprintf("~%s", input$show)))
   })
   
+  observeEvent(input$map_geojson_mouseover,{
+    geojson<-input$map_geojson_mouseover
+    leafletProxy("map") %>%
+      clearPopups() %>%
+      addPopups(lng=geojson$lng, lat=geojson$lat,
+                paste(geojson$properties$parent, geojson$properties$name))
+  })
+  
+  observeEvent(input$map_geojson_mouseout,{
+    leafletProxy("map") %>%
+      clearPopups()
+  })
+  
   output$map<-renderLeaflet({
     leaflet() %>%
       setView(lng=114, lat=26, zoom=4) %>%
@@ -88,8 +101,8 @@ shinyServer(function(input, output) {
   })
   
   output$helper<-renderText({
-    str(input)
-    as.character(input$map_geojson_click)
+    str(input$map_geojson_mouseover)
+    as.character(input$map_geojson_mouseover)
   })
   
   output$broadband_tbl<-DT::renderDataTable({
