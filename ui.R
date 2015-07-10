@@ -5,7 +5,6 @@
 # http://shiny.rstudio.com
 #
 
-library(markdown)
 library(shiny)
 library(DT)
 library(ggvis)

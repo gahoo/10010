@@ -149,7 +149,7 @@ shinyServer(function(input, output) {
       geom_bar(stat='identity', position='dodge')+
       facet_wrap(~CITY, scales="free_x", nrow=1)+
       theme(axis.text.x = element_text(angle = 90),
-            text=element_text(family='GB1')
+            text=element_text(family='STKaiti')
             )
     
     
@@ -160,7 +160,7 @@ shinyServer(function(input, output) {
     ggplot(boundsbroadband(), 
            aes(y=CITY, x=SPEED_PRICE, color=SPEED, size=SPEED.number, alpha=PRICE))+
       geom_point() +
-      theme(text=element_text(family='GB1')) +
+      theme(text=element_text(family='STKaiti')) +
       facet_grid(PROVINCE ~ ., space='free', scales='free')
   })
   
