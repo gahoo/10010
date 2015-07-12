@@ -13,6 +13,7 @@ library(jsonlite)
 library(leaflet)
 library(scales)
 library(grid)
+library(showtext)
 
 source('prepare.R')
 
@@ -149,19 +150,21 @@ shinyServer(function(input, output) {
       geom_bar(stat='identity', position='dodge')+
       facet_wrap(~CITY, scales="free_x", nrow=1)+
       theme(axis.text.x = element_text(angle = 90),
-            text=element_text(family='STKaiti')
-            )
-    
-    
+            text = element_text(size=(rel(6))),
+            legend.text = element_text(size=rel(4)),
+            legend.title = element_text(size=rel(4)))
     print(p, vp=viewport(angle=-90))
   })
   
   output$cities_dot_plot<-renderPlot({
-    ggplot(boundsbroadband(), 
+    p<-ggplot(boundsbroadband(), 
            aes(y=CITY, x=SPEED_PRICE, color=SPEED, size=SPEED.number, alpha=PRICE))+
       geom_point() +
-      theme(text=element_text(family='STKaiti')) +
-      facet_grid(PROVINCE ~ ., space='free', scales='free')
+      facet_grid(PROVINCE ~ ., space='free', scales='free') +
+      theme(text = element_text(size=(rel(6))),
+            legend.text = element_text(size=rel(4)),
+            legend.title = element_text(size=rel(4)))
+    p
   })
   
   boundsbroadband %>%

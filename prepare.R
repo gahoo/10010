@@ -64,3 +64,5 @@ tooltip_helper <- function(x) {
   if(is.null(x)) return(NULL)
   paste0(names(x), ": ", format(x), collapse = "<br />")
 }
+
+showtext.auto()
